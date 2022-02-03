@@ -1,0 +1,43 @@
+.container {
+  margin: 3rem 0;
+
+  hr {
+    opacity: 0.5;
+    margin: 2rem 0;
+  }
+}
+
+.optionBar {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  span {
+    background-color: var(--color-yellow);
+    padding: 0.4rem 1.2rem;
+    margin: 0 0.5rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.addPizzas {
+  width: 30rem;
+  h2 {
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    input,
+    select {
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-style: none;
+      border-radius: 1rem;
+      background-color: #eeee;
+      outline: none;
+    }
+  }
+}
