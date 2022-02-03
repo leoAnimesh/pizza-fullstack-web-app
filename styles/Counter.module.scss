@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  span {
+    margin: 0 1rem;
+  }
+  button {
+    width: 2rem;
+    height: 2rem;
+    border-style: none;
+    border-radius: 50%;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
