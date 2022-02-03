@@ -1,32 +1,43 @@
 .pizzaContainer {
   width: fit-content;
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
   img {
-    width: 15rem;
+    width: 20rem;
   }
   p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     span {
       display: inline-block;
       width: 1.2rem;
       height: 1.2rem;
       border-radius: 50%;
-      background-color: var(--color-yellow);
+      margin-top: 1px;
+      margin-left: 5px;
     }
   }
+
+  .rating {
+    margin: 1rem 0;
+  }
+
   .InfoContainer {
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    align-items: center;
+    margin: 1.5rem 3rem;
     span {
       font-weight: 400;
     }
     button {
       background-color: var(--color-yellow);
       border-style: none;
-      padding: 0 1.5rem;
+      padding: 0.5rem 1.5rem;
       border-radius: 1rem;
+      font-weight: 500;
     }
   }
 }
